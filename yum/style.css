@@ -58,6 +58,7 @@ h1 {size:4em;}
 h2 {font:helvetica;}
 h2 {size:2em;}
 ul {font:helvetica;}
+ul {list-style:none;}
 p {font:verdana;}
 p {size:1em;}
 
