@@ -51,13 +51,7 @@ table {
 
 /* END RESET */
 <style>
-#site-header h1 a {
- display:block;  
- width:300px; 
- height:80px;  
- background:url(dogvscat-logo.gif) no-repeat top left; 
- text-indent:-9999px;
- }
+
 li {font-style:times;}
 	{font-size:4em;}
 	h2{font-size:4em;}
