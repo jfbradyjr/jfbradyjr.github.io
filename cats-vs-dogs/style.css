@@ -59,7 +59,7 @@ width:80%;}
 header
 	{display:inline-block;
 		text-align:center;
-		background-color: red;}
+		}
 
 
 h1
@@ -101,7 +101,7 @@ article
 	padding:2%;
 	padding-top:2%;
 	clear:left;
-	background-color:green;}
+	}
 
 	
 
@@ -136,29 +136,33 @@ footer
 	float:left;
 width:98%;
 border-top:3px solid;
-padding-top:20px;
+padding-top:15px;
 padding-left: 2%;
 clear:both;
-background-color: yellow;}
+}
 
 
 
 #footer1
 {float:left;
 	width:45%;
-clear:both;
-background-color: yellow;}
+}
 
 
 .important
-{font-color:red;}
+{color:red;}
+
+.important-2
+{color:red;}
 
 
 #footer2
 {float:right;
-	width:15%;
-clear:both;
-background-color: green;}
+	width:15%;}
+
+
+
+
 
 
 
