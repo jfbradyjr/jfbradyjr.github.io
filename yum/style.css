@@ -118,9 +118,9 @@ padding-right: 60px;
 padding-bottom: 50px;
 line-height:1.5em;
 font-family:helvetica;
-font-size: 1em;
+font-size: 1em;}
 
-}
+.bold{font-weight:bold;}
 
 footer
 {float:right;
