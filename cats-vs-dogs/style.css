@@ -63,9 +63,8 @@ header
 
 
 h1
-	{padding-top: 20px;
-		padding-bottom: 30px;}
-
+	{padding-top: 1%;
+		padding-bottom: 1.5%;}
 
 
 li
@@ -73,8 +72,8 @@ li
 		float:left;
 		padding-left:50px;
 		padding-right: 50px;
-		padding-bottom: 5px;
-		padding-top: 5px;
+		padding-bottom: 1%;
+		padding-top: 1%;
 		font-family: georgia;
 		font-weight: bold;
 		font-size: 1.5em;
@@ -125,8 +124,8 @@ color:black;}
 	{font-family: georgia;
 font-weight: bold;
 font-size: 1.5em;
-padding-top: 10px;
-padding-bottom: 10px;}
+padding-top: .75%;
+padding-bottom: .75%}
 
 p
 {line-height: 1.5em;
@@ -141,7 +140,7 @@ footer
 	float:left;
 width:98%;
 border-top:3px solid;
-padding-top:15px;
+padding-top:1%;
 padding-left: 2%;
 clear:both;
 }
@@ -167,6 +166,15 @@ clear:both;
 
 
 
+
+img
+{max-width:100%;}
+
+
+
+@media screen and (max-width:600px;){
+.column2
+{float:none;}}
 
 
 

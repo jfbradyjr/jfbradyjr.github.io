@@ -51,150 +51,220 @@ table {
 }
 
 
-#site-wrapper
-{
-}
-	#site-header h1 a {
- display:block;
-   width:300px; 
- height:120px;  
- background:url(images/logo.png) no-repeat top left; 
- text-indent:-9999px;
- position:relative;
- margin-left: 200px;
-padding-top: 15px;
-background-color: red;
-
+    #site-header h1 a { 
+  display:block;	
+  text-indent:-9999px;    
+  width:306px; height:123px;
+  background:url(logo.png) no-repeat left top;
+margin-top: 5px;
 }
 
- 
- #top-nav
- {position:absolute;
- 	top:5px;
- 	right:200px;
- 	font-family: helvetica;
- 	font-size: .5em;}
- 	a
- 	{text-decoration: none;}
 
 
- #main-menu
- {
- 	position:relative;
- 	margin-left:200px;
- 	
 
- 	}
+#site-wrapper{background-color:aqua;
+height:130px;
+
+}
 
 
-li
+#site-header{margin:0 auto;
+				width:80%;
+}
+
+
+header h1{float:left;width:70%;}
+
+#top-nav
+{float:right;width:30%;}
+
+
+#menu-wrapper{
+	background-color:brown;
+	clear:both;
+
+	
+}
+
+
+
+#main-menu
+				{margin:0 auto;
+				width:80%;}
+
+
+
+#main-menu li
 {float:left;
-padding-top:5px;
-padding-bottom: 5px;
-padding-right: 40px;
-
-}
-
-#main-menu li a 
-{text-decoration:none;
-font-size: .75em;
-font-family: helvetica;
-font-style: bold;
-text-transform:uppercase;
-color:white;
-background-color: teal;
-
-
-}
-
-#page
-{
-margin-left:200px;
-padding-top:80px;
-width:500px;
-font-family: helvetica;
-font-size: .75em;
-line-height:1.5em;
-float:left;}
-
-h2
-{font-family: helvetica;
-font-size: 1.25em;
-font-style:bold;
-text-transform:uppercase;}
-
-h1
-{clear:both;
-	font-family: helvetica;
-font-size: 2em;
-font-style:bold;
-text-transform:uppercase;
-padding-bottom: 10px;
-}
-
-p{margin-bottom:.5em;}
-
-
-#sidebar
-{float:right;
-	width:200px;
-	max-height:50px;
-	margin-right:200px;
-	margin-top:100px;
-
-
-
+background-color: brown;
 
 }
 
 
-#sidebar li a 
-{text-decoration:none;
-font-size: .75em;
-font-family: helvetica;
-line-height:1.5em;
 
+
+
+#content-wrapper{
+clear:both;}
+
+#content{margin:0 auto;
+		width:80%;}
+
+
+
+
+#page{float:left;
+width:60%;
+margin-right:2.5%;
+padding-bottom: 40px;}
+
+
+
+#sidebar{float:left;
+width:30%;
+margin-right:2.5%;
 }
 
-#sidebar h1 {font-size:1.25em;
+
+#footer-wrapper
+{background-color: brown;
+clear:both;
+height:110px;
 }
 
 
-#sidebar img{width:200px;
-max-height:100px;}
+#site-footer{margin:0 auto;
+				width:80%;}
 
-
-footer
-{margin-left:200px;
-width:150px;
-
-}
 
 #footer-contact
-{font-size:.75em;
-font-family: helvetica;
-line-height:1.5em;}
+{float:left;
+width:65%;}
 
-#footer-contact h1
-{font-size:1.5em;
-padding-top:20px;}
 
-#footer-follow h1 
-{font-size:1.5em;
+
+#footer-follow
+{float:right;
+width:35%;
+
+}
+
+
+#footer-follow li
+{float:left;}
+
+
+
+#top-nav a
+{font-family: helvetica;
+	text-decoration: none;
+font-size: .5em;
+color: brown;
+
 }
 
 
 
 
+#main-menu li a
+{font-family: helvetica;
+	font-weight: bold;
+text-transform: uppercase;
+font-size: .75em;
+color: white;
+text-decoration: none;
+padding-right:50px;
+padding-top: 5px;
+padding-bottom: 5px;}
+
+
+
+#page h1
+{font-family: helvetica;
+	font-weight: bold;
+	font-size: 1.5em;
+color: brown;
+padding-top: 50px;
+padding-bottom: 10px;
+text-transform: uppercase;
+}
+
+
+#page h2
+{font-family: helvetica;
+	font-weight: bold;
+	font-size: .75em;
+color: brown;
+text-transform: uppercase;}
+
+
+#page p
+{font-family: helvetica;
+	font-size: .75em;
+line-height:1.5em;
+padding-bottom:1em;
+margin-right: 100px;}
 
 
 
 
+#sidebar 
+{padding-top: 50px;}
+
+#sidebar h1 
+{font-family: helvetica;
+	font-weight: bold;
+	font-size: .75em;
+color: brown;
+text-transform: uppercase;}
+
+
+
+#sidebar li a
+	{font-family: helvetica;
+font-size: .5em;
+color: brown;
+text-decoration: none;
+}
+
+#sidebar img
+{max-width:250px;
+padding-top: 5px;
+}
 
 
 
 
+#footer-contact h1
+{font-family: helvetica;
+	font-weight: bold;
+	font-size: .75em;
+color: white;
+text-transform: uppercase;
+padding-top: 10px;
+padding-bottom: 5px;}
 
+#footer-contact p
+{font-family: helvetica;
+	font-size: .75em;
+line-height:1.5em;
+color:white;
+max-width: 200px;}
+
+
+
+#footer-follow h1
+{font-family: helvetica;
+	font-weight: bold;
+	font-size: .75em;
+color: white;
+text-transform: uppercase;
+padding-top: 10px;
+padding-bottom: 5px;}
+
+
+#footer-follow img
+{max-width:30px;}
 
 
 
