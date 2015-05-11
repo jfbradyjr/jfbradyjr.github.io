@@ -102,7 +102,7 @@ h1 a
 
 img
 	{margin:0 auto;
-	width:30%;display:inline;}
+	width:33.1%;display:inline;}
 
 img {
     opacity: 1.0;
@@ -127,6 +127,10 @@ img {
 	border: 1px solid;
 
 }
+
+
+#stuff img:hover
+	{opacity:1;}
 
 
 h2{font-size: 2em;
